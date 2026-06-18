@@ -36,4 +36,4 @@ This repository contains solutions developed as part of the Cognizant Digital Nu
 
 ## Author
 
-Kiran
+Karthik
