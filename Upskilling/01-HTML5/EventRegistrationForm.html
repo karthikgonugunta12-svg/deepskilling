@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Event Registration</title>
+
+<style>
+form{
+    width:400px;
+    margin:auto;
+}
+</style>
+
+<script>
+function showMessage(){
+    document.getElementById("msg").value =
+    "Registration Successful";
+}
+</script>
+
+</head>
+<body>
+
+<h2>Event Registration Form</h2>
+
+<form onsubmit="showMessage()">
+
+<input type="text"
+placeholder="Enter Name"
+required
+autofocus><br><br>
+
+<input type="email"
+placeholder="Enter Email"
+required><br><br>
+
+<input type="date" required><br><br>
+
+<select required>
+<option>Workshop</option>
+<option>Seminar</option>
+<option>Hackathon</option>
+</select><br><br>
+
+<textarea
+placeholder="Message">
+</textarea><br><br>
+
+<button type="submit">
+Register
+</button>
+
+<br><br>
+
+<output id="msg"></output>
+
+</form>
+
+</body>
+</html>
